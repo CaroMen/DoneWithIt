@@ -4,10 +4,12 @@ import { StyleSheet, View } from 'react-native';
 import AppButton from './app/components/AppButton';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 import WelcomeScreen from './app/screens/WelcomeScreen';
+import Card from './app/components/Card';
+import ListingDetailScreen from './app/screens/ListingDetailScreen';
 
 export default function App() {
   return (
-    <WelcomeScreen />
+    <ViewImageScreen />
 
   );
 }
